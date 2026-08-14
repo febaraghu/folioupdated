@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feba Raghu | Civil Engineer & Civil CADD / BIM Trainer</title>
+  <meta name="description" content="Official personal brand profile of Feba Raghu — Civil Engineer and Civil CADD & BIM Trainer at ISON Academy specializing in AutoCAD, Autodesk Revit, Civil 3D, Primavera P6, Navisworks, and BIM workflows.">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Feba Raghu | Civil Engineer & Civil CADD / BIM Trainer">
+  <meta property="og:description" content="Civil Engineer with expertise in Construction Site Engineering, Civil CADD & BIM Workflows. Civil CADD Engineer at ISON Academy.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Custom Glowing Interactive Mouse Cursor -->
+  <div class="custom-cursor" id="custom-cursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" id="cursor-follower" aria-hidden="true"></div>
+
+  <!-- Ambient Deep Space Grid Background & Animated Laser Scan -->
+  <div class="grid-background" aria-hidden="true"></div>
+  <div class="grid-scan-line" aria-hidden="true"></div>
+  <div class="glow-orb orb-hero-left" aria-hidden="true"></div>
+  <div class="glow-orb orb-hero-right" aria-hidden="true"></div>
+  <div class="glow-orb orb-bottom-center" aria-hidden="true"></div>
+
+  <!-- Floating Ambient Glowing Star Particles -->
+  <div class="floating-shapes-container" aria-hidden="true">
+    <div class="floating-shape shape-1">✦</div>
+    <div class="floating-shape shape-2">✦</div>
+    <div class="floating-shape shape-3">✦</div>
+    <div class="floating-shape shape-4">✦</div>
+    <div class="floating-shape shape-5">✦</div>
+    <div class="floating-shape shape-6">✦</div>
+    <div class="floating-shape shape-7">✦</div>
+    <div class="floating-shape shape-8">✦</div>
+    <div class="floating-shape shape-9">✦</div>
+    <div class="floating-shape shape-10">✦</div>
+    <div class="floating-shape shape-11">✦</div>
+    <div class="floating-shape shape-12">✦</div>
+    <div class="floating-shape shape-13">✦</div>
+    <div class="floating-shape shape-14">✦</div>
+    <div class="floating-shape shape-15">✦</div>
+    <div class="floating-shape shape-16">✦</div>
+  </div>
+
+  <!-- Sticky Header Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- ISON Logo | FEBA RAGHU Brand Name -->
+      <a href="#hero" class="brand-logo" aria-label="Feba Raghu Home">
+        <img src="assets/ison-logo-nav.png" alt="ISON Academy" class="nav-ison-img">
+        <span class="brand-v-divider">|</span>
+        <div class="brand-text-wrap">
+          <span class="brand-name-bold">FEBA <span class="cyan-text">RAGHU</span></span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#ison-academy" class="nav-link">Academy</a></li>
+          <li><a href="#core-expertise" class="nav-link">Expertise</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#mission" class="nav-link">Mission</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="assets/Feba_Raghu_Resume.pdf" download="Feba_Raghu_Resume.pdf" class="btn btn-nav-profile" id="nav-download-cv">
+          <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Profile
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-backdrop" id="mobile-backdrop"></div>
+    <div class="mobile-menu-drawer">
+      <div class="mobile-menu-header">
+        <div class="brand-logo">
+          <img src="assets/ison-logo-nav.png" alt="ISON Academy" class="nav-ison-img">
+          <span class="brand-v-divider">|</span>
+          <span class="brand-name-bold">FEBA <span class="cyan-text">RAGHU</span></span>
+        </div>
+        <button class="mobile-close" id="mobile-close" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#ison-academy" class="mobile-nav-link">Academy</a></li>
+        <li><a href="#core-expertise" class="mobile-nav-link">Expertise</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+        <li><a href="#mission" class="mobile-nav-link">Mission</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="assets/Feba_Raghu_Resume.pdf" download="Feba_Raghu_Resume.pdf" class="btn btn-cyan-fill w-full">
+          <svg class="btn-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Profile
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <!-- Left Hero Content -->
+        <div class="hero-text-col">
+          <div class="hero-pill-tag reveal">
+            <span class="star-icon">✦</span>
+            <span>CIVIL ENGINEERING PROFESSIONAL</span>
+          </div>
+
+          <h1 class="hero-main-title reveal">
+            FEBA<br>
+            <span class="cyan-text">RAGHU</span>
+          </h1>
+
+          <div class="hero-subtitle reveal">
+            Civil CADD Engineer <span class="divider">|</span> Civil CADD & BIM Trainer
+          </div>
+
+          <div class="hero-typewriter reveal">
+            I am a <span class="typed-text" id="typed-output">Civil CADD Engineer @ ISON Academy</span>
+          </div>
+
+          <div class="hero-cta-group reveal">
+            <a href="assets/Feba_Raghu_Resume.pdf" download="Feba_Raghu_Resume.pdf" class="btn btn-cyan-fill magnet-btn" id="hero-btn-download">
+              <svg class="btn-icon-left" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              Download Profile
+            </a>
+            <a href="#contact" class="btn btn-outline-glow magnet-btn" id="hero-btn-contact">
+              <span class="btn-star">✦</span>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual (Circular Image with Orbit Ring & Badge) -->
+        <div class="hero-avatar-col reveal">
+          <div class="avatar-orbit-wrapper tilt-card">
+            <!-- Animated Rotating Outer Orbit Ring -->
+            <div class="orbit-ring"></div>
+            <div class="orbit-glow-behind"></div>
+
+            <!-- Main Circular Avatar Frame -->
+            <div class="avatar-circle">
+              <img src="assets/feba-raghu.jpg" alt="Feba Raghu" class="avatar-img">
+            </div>
+
+            <!-- Bottom Circular Badge -->
+            <div class="avatar-badge-pill">
+              <span class="badge-blue-diamond">◆</span>
+              <span>ISON Academy Faculty</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <div class="scroll-down-indicator">
+        <span class="scroll-label">SCROLL DOWN</span>
+        <a href="#about" class="scroll-arrow" aria-label="Scroll to About section">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">ABOUT ME</span>
+          <h2 class="section-title">Professional Profile</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card reveal tilt-card">
+            <h3 class="bio-heading">Civil Engineer & Civil CADD/BIM Trainer</h3>
+            <p class="bio-paragraph">
+              Motivated and detail-oriented Civil Engineer with a Bachelor's degree in Civil Engineering and hands-on experience in construction site engineering and Civil CADD.
+            </p>
+            <p class="bio-paragraph">
+              Proficient in AutoCAD, Autodesk Revit, Civil 3D, Primavera P6, Navisworks, and BIM workflows. Committed to delivering high-quality engineering solutions and mentoring students through practical project deliverables.
+            </p>
+          </div>
+
+          <div class="about-cards-grid">
+            <div class="about-info-card reveal tilt-card glow-card">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M3 7l9-4 9 4M4 10v11M20 10v11"/></svg>
+              </div>
+              <h4 class="info-card-title">Civil Engineering</h4>
+              <p class="info-card-desc">B.Tech qualified engineer with core expertise in site engineering, supervision, quality inspections, and structural compliance.</p>
+            </div>
+
+            <div class="about-info-card reveal tilt-card glow-card">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              </div>
+              <h4 class="info-card-title">Civil CADD</h4>
+              <p class="info-card-desc">Advanced 2D/3D computer-aided design, plan drafting, elevation details, and civil infrastructure layouts.</p>
+            </div>
+
+            <div class="about-info-card reveal tilt-card glow-card">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <h4 class="info-card-title">BIM Workflows</h4>
+              <p class="info-card-desc">Parametric architectural & structural modeling, 3D model aggregation, and multi-disciplinary clash detection.</p>
+            </div>
+
+            <div class="about-info-card reveal tilt-card glow-card">
+              <div class="info-card-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <h4 class="info-card-title">Training & Mentoring</h4>
+              <p class="info-card-desc">Delivering hands-on training in industry-standard Civil CADD & BIM software suites at ISON Academy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ISON ACADEMY SECTION -->
+    <section class="section ison-section" id="ison-academy">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About ISON Academy</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="ison-layout-grid">
+          <!-- Left Featured ISON Card -->
+          <div class="ison-featured-card reveal tilt-card glow-card">
+            <div class="ison-logo-wrapper">
+              <img src="assets/ison-logo-dark.jpeg" alt="ISON Academy - Where the World Learns Tomorrow" class="ison-card-logo">
+            </div>
+            <div class="ison-quote-slogan">"Where the World Learns Tomorrow"</div>
+            
+            <h3 class="ison-featured-title">Engineering Training Excellence</h3>
+            <p class="ison-featured-desc">
+              ISON Academy is a professional training institution specializing in engineering software education, delivering industry-focused courses that equip learners with practical, job-ready skills.
+            </p>
+
+            <a href="#contact" class="btn btn-cyan-fill ison-visit-btn">
+              <svg class="btn-icon-left" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+              Visit Official Website
+            </a>
+          </div>
+
+          <!-- Right 6 Cards Grid (3 Rows x 2 Columns) -->
+          <div class="ison-cards-2x2">
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Training Approach</h4>
+              <p class="mini-card-desc">Hands-on, practical methodology with real project exposure and software-intensive learning.</p>
+            </div>
+
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Industry Focus</h4>
+              <p class="mini-card-desc">Courses aligned with current civil engineering and structural design industry requirements.</p>
+            </div>
+
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Courses Offered</h4>
+              <p class="mini-card-desc">AutoCAD, Revit, Civil 3D, Primavera P6, Navisworks, and related civil engineering software.</p>
+            </div>
+
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Learning Methodology</h4>
+              <p class="mini-card-desc">Combination of theoretical instruction and extensive practical exercises on real-world scenarios.</p>
+            </div>
+
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Student Development</h4>
+              <p class="mini-card-desc">Comprehensive training focused on practical skills, industry readiness, and career advancement.</p>
+            </div>
+
+            <div class="ison-mini-card reveal tilt-card glow-card">
+              <div class="mini-card-badge">◆</div>
+              <h4 class="mini-card-title">Faculty</h4>
+              <p class="mini-card-desc">Experienced civil engineering educators dedicated to delivering high-impact, professional CADD and BIM instruction.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE EXPERTISE SECTION -->
+    <section class="section core-expertise-section" id="core-expertise">
+      <div class="container">
+        <div class="panel-box reveal">
+          <div class="panel-header">
+            <div class="panel-icon-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h2 class="panel-title">Core Expertise</h2>
+          </div>
+
+          <div class="core-grid">
+            <!-- 1. AutoCAD -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.9 6.9a2.12 2.12 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h4 class="core-card-title">AutoCAD (2D Drafting & Detailing)</h4>
+            </div>
+
+            <!-- 2. Revit Architecture -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M3 7l9-4 9 4M4 10v11M20 10v11"/></svg>
+              </div>
+              <h4 class="core-card-title">Revit Architecture</h4>
+            </div>
+
+            <!-- 3. Revit Structure -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><line x1="9" y1="4" x2="9" y2="20"/><line x1="15" y1="4" x2="15" y2="20"/><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/></svg>
+              </div>
+              <h4 class="core-card-title">Revit Structure</h4>
+            </div>
+
+            <!-- 4. Civil 3D -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3l4 8 5-5 4 15H3L8 3z"/></svg>
+              </div>
+              <h4 class="core-card-title">Civil 3D</h4>
+            </div>
+
+            <!-- 5. Navisworks -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <h4 class="core-card-title">Navisworks</h4>
+            </div>
+
+            <!-- 6. Primavera P6 -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="15" r="1.5"/></svg>
+              </div>
+              <h4 class="core-card-title">Primavera P6</h4>
+            </div>
+
+            <!-- 7. Engineering Drawing Interpretation -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              </div>
+              <h4 class="core-card-title">Engineering Drawing Interpretation</h4>
+            </div>
+
+            <!-- 8. BIM Coordination -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><circle cx="12" cy="6" r="3"/><path d="M9 16.5l3-7.5 3 7.5"/></svg>
+              </div>
+              <h4 class="core-card-title">BIM Coordination</h4>
+            </div>
+
+            <!-- 9. Project Planning & Scheduling -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              </div>
+              <h4 class="core-card-title">Project Planning & Scheduling</h4>
+            </div>
+
+            <!-- 10. Construction Documentation -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="9 15 11 17 15 13"/></svg>
+              </div>
+              <h4 class="core-card-title">Construction Documentation</h4>
+            </div>
+
+            <!-- 11. Site Engineering Supervision -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <h4 class="core-card-title">Site Engineering Supervision</h4>
+            </div>
+
+            <!-- 12. Quality & Safety Compliance -->
+            <div class="core-card tilt-card glow-card">
+              <div class="core-icon-badge">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h4 class="core-card-title">Quality & Safety Compliance</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFTWARE EXPERTISE (Dynamic Scroll Animated Progress Bars) -->
+    <section class="section software-expertise-section">
+      <div class="container">
+        <div class="panel-box reveal">
+          <div class="panel-header">
+            <div class="panel-icon-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h2 class="panel-title">Software Expertise</h2>
+          </div>
+
+          <div class="progress-grid">
+            <!-- 1. AutoCAD (95%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="95">
+              <div class="progress-meta">
+                <span class="progress-name">AutoCAD</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 2. Revit Architecture (92%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="92">
+              <div class="progress-meta">
+                <span class="progress-name">Revit Architecture</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 3. Revit Structure (90%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="90">
+              <div class="progress-meta">
+                <span class="progress-name">Revit Structure</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 4. Civil 3D (88%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="88">
+              <div class="progress-meta">
+                <span class="progress-name">Civil 3D</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 5. Navisworks (82%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="82">
+              <div class="progress-meta">
+                <span class="progress-name">Navisworks</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 6. Primavera P6 (87%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="87">
+              <div class="progress-meta">
+                <span class="progress-name">Primavera P6</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+
+            <!-- 7. BIM Documentation (92%) -->
+            <div class="progress-card tilt-card glow-card" data-pct="92">
+              <div class="progress-meta">
+                <span class="progress-name">BIM Documentation</span>
+                <span class="progress-pct cyan-pct">0%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar cyan-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY LEARN WITH ME? SECTION -->
+    <section class="section why-learn-section">
+      <div class="container">
+        <div class="panel-box reveal">
+          <div class="panel-header">
+            <div class="panel-icon-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h2 class="panel-title">Why Learn With Me?</h2>
+          </div>
+
+          <div class="why-grid">
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Industry-Oriented Training</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Project-Based Learning</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Practical Engineering Knowledge</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Job-Oriented Curriculum</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Real Construction Workflows</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">BIM Standards</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Professional Guidance</span>
+            </div>
+
+            <div class="why-pill tilt-card glow-card">
+              <div class="why-arrow-icon">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+              </div>
+              <span class="why-pill-text">Career Mentorship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">ACADEMIC BACKGROUND</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="education-card-wrapper reveal">
+          <div class="education-card tilt-card glow-card">
+            <div class="edu-icon-badge">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="edu-details">
+              <div class="edu-year-pill">2020 – 2024</div>
+              <h3 class="edu-degree">Bachelor of Technology (B.Tech) in Civil Engineering</h3>
+              <p class="edu-desc">Comprehensive four-year B.Tech program providing rigorous engineering fundamentals, structural design, fluid mechanics, surveying, and computer-aided engineering applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">WORK HISTORY</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot-wrapper">
+              <div class="timeline-dot active-dot"></div>
+            </div>
+            <div class="timeline-content card-highlight tilt-card glow-card">
+              <div class="timeline-header">
+                <div class="role-meta">
+                  <span class="company-name">ISON Academy</span>
+                  <span class="role-status">Present</span>
+                </div>
+                <h3 class="role-title">Civil CADD Engineer</h3>
+              </div>
+              <ul class="task-list">
+                <li>Deliver training in Civil CADD and BIM software.</li>
+                <li>Teach AutoCAD, Autodesk Revit, Civil 3D, Primavera P6 and related applications.</li>
+                <li>Guide students through practical projects.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot-wrapper">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content tilt-card glow-card">
+              <div class="timeline-header">
+                <div class="role-meta">
+                  <span class="company-name">ARCITE</span>
+                </div>
+                <h3 class="role-title">Certified Construction Site Engineer</h3>
+              </div>
+              <ul class="task-list">
+                <li>Assisted in site supervision, quality inspections and documentation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Role 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot-wrapper">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content tilt-card glow-card">
+              <div class="timeline-header">
+                <div class="role-meta">
+                  <span class="company-name">Sraddhatma Pvt. Ltd.</span>
+                </div>
+                <h3 class="role-title">Site Engineer</h3>
+              </div>
+              <ul class="task-list">
+                <li>Supervised construction activities.</li>
+                <li>Coordinated with contractors and monitored quality and safety.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFT SKILLS & LANGUAGES SECTION -->
+    <section class="section soft-skills-section">
+      <div class="container">
+        <div class="dual-grid">
+          <!-- Soft Skills -->
+          <div class="dual-box reveal tilt-card">
+            <div class="box-header">
+              <span class="box-subtitle">PROFESSIONAL ATTRIBUTES</span>
+              <h3 class="box-title">Soft Skills</h3>
+            </div>
+
+            <div class="soft-skills-flex">
+              <span class="skill-pill">Leadership</span>
+              <span class="skill-pill">Communication</span>
+              <span class="skill-pill">Team Collaboration</span>
+              <span class="skill-pill">Problem Solving</span>
+              <span class="skill-pill">Time Management</span>
+              <span class="skill-pill">Adaptability</span>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="dual-box reveal tilt-card">
+            <div class="box-header">
+              <span class="box-subtitle">COMMUNICATION</span>
+              <h3 class="box-title">Languages</h3>
+            </div>
+
+            <div class="languages-grid">
+              <div class="lang-item">
+                <span class="lang-title">English</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-title">Malayalam</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-title">Hindi</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-title">Tamil</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION SECTION (Placed Right Above Contact Information) -->
+    <section class="section mission-section" id="mission">
+      <div class="container">
+        <div class="mission-panel-box reveal tilt-card glow-card">
+          <!-- Blueprint Grid Texture Overlay -->
+          <div class="mission-grid-overlay"></div>
+
+          <!-- Top Centered MISSION Pill Badge -->
+          <div class="mission-badge-pill">
+            <span>MISSION</span>
+          </div>
+
+          <!-- Mission Statement Quote -->
+          <blockquote class="mission-quote-text">
+            "To empower aspiring civil engineers and working professionals with practical software expertise in BIM, CAD, and project planning, enabling them to build successful careers in the Architecture, Engineering, and Construction (AEC) industry."
+          </blockquote>
+
+          <div class="mission-author">— FEBA RAGHU | CIVIL CADD & BIM TRAINER</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">GET IN TOUCH</span>
+          <h2 class="section-title">Contact Information</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Location -->
+          <div class="contact-card reveal tilt-card glow-card">
+            <div class="contact-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Kollam, Kerala, India</span>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <a href="tel:+918086568714" class="contact-card reveal contact-link tilt-card glow-card" id="contact-phone">
+            <div class="contact-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 8086568714</span>
+            </div>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:febaraghu7@gmail.com" class="contact-card reveal contact-link tilt-card glow-card" id="contact-email">
+            <div class="contact-icon-box">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">febaraghu7@gmail.com</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-footer-download reveal">
+          <a href="assets/Feba_Raghu_Resume.pdf" download="Feba_Raghu_Resume.pdf" class="btn btn-cyan-fill btn-lg magnet-btn" id="footer-cv-download">
+            <svg class="btn-icon-left" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Profile CV
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Scroll-To-Top Button -->
+  <button class="scroll-to-top-btn" id="scroll-to-top" aria-label="Scroll to top of page">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <img src="assets/ison-logo-nav.png" alt="ISON Academy" class="footer-ison-logo">
+        <span class="brand-v-divider">|</span>
+        <span class="footer-name">FEBA RAGHU</span>
+      </div>
+      <p class="footer-copy">&copy; 2026 Feba Raghu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
